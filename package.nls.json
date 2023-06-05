@@ -1,0 +1,14 @@
+{
+    "plugin.index.title": "Huawei CodeArts demo plugin main page",
+    "plugin.index.description": "This is the plugin frontend page",
+    "plugin.leftPanel.introduction": "This extension provides examples of how to invoke or register various dialogs.",
+    "plugin.leftPanel.newProjectIntroduction": "1.A panel is added to the New Project dialog box. Generally, extension of the project-wizard type register pop-up windows here.",
+    "plugin.leftPanel.customDialogIntroduction":"2.Register the standard pop-up dialog. Here are several examples:",
+    "plugin.leftPanel.customDialogIntroduction.default":"(1)The default pop-up window cannot be dragged, the size cannot be changed, and there is no mask layer.The default width and height are 500 x 300.",
+    "plugin.leftPanel.customDialogIntroduction.second":"(2)draggable, resizeable, there are masks.The default width and height are 500 x 300.",
+    "plugin.leftPanel.customDialogIntroduction.third":"(3)The customized width and height are 600 x 400. The display position is (300, 300). There is no titlebar. There are masks. Press esc to exit the pop-up window.",
+    "plugin.leftPanel.customDialogIntroduction.forth":"(4)Adaptive width and height based on content",
+    "plugin.leftPanel.newProjectDialogBtn": "New project dialog",
+    "plugin.leftPanel.normalDialogBtn": "Normal dialog",
+    "plugin.leftPanel.customDialogBtn": "Custom dialog"
+}

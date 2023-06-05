@@ -1,0 +1,14 @@
+{
+    "plugin.index.title": "华为云CodeArts IDE-Dialog样例插件主页面",
+    "plugin.index.description": "这是插件的前端页面",
+    "plugin.leftPanel.introduction": "本扩展提供如何调用或注册各类弹窗的样例",
+    "plugin.leftPanel.newProjectIntroduction": "1.在新建工程弹窗中新增一个面板,通常project-wizard类型的插件会在此处注册。",
+    "plugin.leftPanel.customDialogIntroduction":"2.注册标准弹窗。以下是多种常用组合的示例:",
+    "plugin.leftPanel.customDialogIntroduction.default":"(1)默认弹窗，不可拖拽，不可改变大小，无蒙层。默认宽高500x300。",
+    "plugin.leftPanel.customDialogIntroduction.second":"(2)可以拖拽，可以改变大小，有蒙层。默认宽高500x300。",
+    "plugin.leftPanel.customDialogIntroduction.third":"(3)自定义宽高为600x400，出现位置为（300,300）处，无titlebar，有蒙层。按esc可退出弹窗。",
+    "plugin.leftPanel.customDialogIntroduction.forth":"(4)根据内容自适应宽高",
+    "plugin.leftPanel.newProjectDialogBtn": "新建工程弹窗",
+    "plugin.leftPanel.normalDialogBtn": "默认弹窗",
+    "plugin.leftPanel.customDialogBtn": "自定义弹窗"
+}

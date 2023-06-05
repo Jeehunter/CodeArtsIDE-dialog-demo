@@ -1,0 +1,51 @@
+{
+    "name": "dialog-demo",
+    "publisher": "huaweicloud",
+    "author": "huaweicloud",
+    "keywords": [
+        "cloudide",
+        "plugin"
+    ],
+    "version": "1.0.0",
+    "license": "SEE LICENSE IN LICENSE",
+    "description": "dialog demo",
+    "displayName": "dialog-demo",
+    "icon": "resources/icons/logo.png",
+    "files": [
+        "src"
+    ],
+    "main": "dist/plugin.js",
+    "activationEvents": [
+        "*"
+    ],
+    "devDependencies": {
+        "@codearts/plugin": "latest",
+        "@codearts/plugin-packager": "0.0.24",
+        "rimraf": "2.6.2",
+        "ts-loader": "^8.3.0",
+        "typescript": "^4.4.0",
+        "typescript-formatter": "7.2.2",
+        "webpack": "^4.39.2",
+        "webpack-cli": "^3.3.7"
+    },
+    "dependencies": {
+        "@cloud/ide-ui": "^0.1.88",
+        "@cloudide/messaging": "latest",
+        "@cloudide/nls": "latest",
+        "@codearts/core": "latest"
+    },
+    "scripts": {
+        "prepare": "npm run clean && npm run build",
+        "clean": "rimraf dist",
+        "format-code": "tsfmt -r",
+        "watch": "tsc -watch",
+        "compile": "tsc",
+        "package": "cap package -p",
+        "build": "npm run format-code && npm run compile && npm run build-browser",
+        "build-browser": "webpack --config webpack.config.js",
+        "watch-browser": "webpack --config webpack.config.js --watch"
+    },
+    "engines": {
+        "codearts": "^2.0.0"
+    }
+}
